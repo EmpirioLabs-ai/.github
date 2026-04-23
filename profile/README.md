@@ -1,10 +1,11 @@
 <div align="center">
 
 <a href="https://empiriolabs.ai">
-  <img src="https://cdn.prod.website-files.com/69ab23187be9f707e474231f/69d661d3444c73934f32c50d_splash-logo.webp" alt="Empirio Labs" width="160" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/EmpirioLabs-ai/assets/main/logo-white.png">
+    <img src="https://raw.githubusercontent.com/EmpirioLabs-ai/assets/main/logo-white.png" alt="Empirio Labs AI" width="280" />
+  </picture>
 </a>
-
-# Empirio Labs AI
 
 ### Specialized AI model hosting for open, proprietary, and custom stacks
 
