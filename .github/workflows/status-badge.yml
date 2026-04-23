@@ -1,0 +1,89 @@
+name: Update status badge
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: status-badge
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate badge JSON
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          summary="$(mktemp)"
+          curl -fsSL --retry 3 --retry-delay 2 \
+            "https://status.empiriolabs.ai/summary.json" -o "$summary"
+
+          overall="$(jq -r '.overall // "unknown"' "$summary")"
+
+          case "$overall" in
+            up)
+              message="All systems operational"
+              color="brightgreen"
+              ;;
+            degraded)
+              message="Partial system outage"
+              color="yellow"
+              ;;
+            down)
+              message="Major system outage"
+              color="red"
+              ;;
+            *)
+              message="Status unknown"
+              color="lightgrey"
+              ;;
+          esac
+
+          mkdir -p out
+          jq -n \
+            --arg label   "Live status" \
+            --arg message "$message" \
+            --arg color   "$color" \
+            '{schemaVersion:1, label:$label, message:$message, color:$color, cacheSeconds:120}' \
+            > out/status-badge.json
+
+          cat out/status-badge.json
+
+      - name: Publish to status-badge branch
+        shell: bash
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+
+          git config --global user.name  "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          remote="https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          workdir="$(mktemp -d)"
+          cd "$workdir"
+
+          if git ls-remote --exit-code --heads "$remote" status-badge >/dev/null 2>&1; then
+            git clone --depth=1 --branch status-badge "$remote" .
+          else
+            git init -q -b status-badge
+            git remote add origin "$remote"
+          fi
+
+          cp "$GITHUB_WORKSPACE/out/status-badge.json" status-badge.json
+          git add status-badge.json
+
+          if git diff --cached --quiet; then
+            echo "No change in status; skipping commit."
+            exit 0
+          fi
+
+          git commit -q -m "chore(status): update badge"
+          git push -q origin HEAD:status-badge

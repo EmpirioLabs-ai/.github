@@ -11,7 +11,7 @@ Hosted open models, optimized proprietary endpoints, and turnkey deployment to r
 <p>
   <a href="https://empiriolabs.ai" target="_blank" rel="noopener"><img alt="Website" src="https://img.shields.io/badge/Website-empiriolabs.ai-1f6feb?style=for-the-badge&logo=googlechrome&logoColor=white"></a>
   <a href="https://docs.empiriolabs.ai/welcome" target="_blank" rel="noopener"><img alt="Documentation" src="https://img.shields.io/badge/Documentation-Read%20the%20docs-0a66c2?style=for-the-badge&logo=readthedocs&logoColor=white"></a>
-  <a href="https://status.empiriolabs.ai/" target="_blank" rel="noopener"><img alt="Live status" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fstatus.empiriolabs.ai%2Fsummary.json&query=%24.overall&label=Live%20status&style=for-the-badge&logo=statuspage&logoColor=white&color=2d333b&cacheSeconds=120"></a>
+  <a href="https://status.empiriolabs.ai/" target="_blank" rel="noopener"><img alt="Live status" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FEmpirioLabs-ai%2F.github%2Fstatus-badge%2Fstatus-badge.json&style=for-the-badge&logo=statuspage&logoColor=white"></a>
 </p>
 
 <p>
