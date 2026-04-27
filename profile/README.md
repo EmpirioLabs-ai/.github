@@ -42,15 +42,6 @@ Empirio Labs is a specialized AI inference and integration provider. We focus on
 - **Day-0 model support.** New models and capabilities roll out quickly on our stack with routing, pricing, and usage limits wired up from day one.
 - **Standard, specialty, and tuned models.** Popular models alongside open-source and proprietary endpoints unavailable elsewhere, with the full model settings other providers lock away.
 
-## Build with our platform
-
-The EmpirioLabs AI platform helps teams ship production-grade AI experiences with structured agents, managed runs, and realtime status events.
-
-- **Create agents** — configure reusable agents with instructions, models, and tool access.
-- **Run workflows** — execute prompts and multi-step tasks with consistent inputs and outputs.
-- **Bring your own knowledge** — upload source material and attach it to the experiences you ship.
-- **Monitor in realtime** — subscribe to live run events for progress, completion, and failures.
-
 ### Get started
 
 1. **Get an API key** — create a project-scoped key in your dashboard.
