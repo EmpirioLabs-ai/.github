@@ -34,7 +34,7 @@ Empirio Labs is a specialized AI inference and integration provider. We focus on
 - **Optimized proprietary endpoints** — Commercial APIs and partner endpoints integrated behind our own formatting and behavior layer, exposed as ready-to-use chat and API endpoints.
 - **Deployment and consulting for custom models** — Packaging, deployment, and operations for companies and model builders shipping their models to real users, including distribution.
 
-## Why teams choose Empirio
+## Why teams choose Empirio Labs
 
 - **Competitive pricing.** Models on our infrastructure typically run 15–20% below other inference providers, with select proprietary endpoints up to 20% under standard rates. Fixed per-message pricing is available on select models.
 - **Pay-as-you-go, not locked plans.** Usage is metered through our endpoints, even for upstream providers that otherwise require monthly subscriptions.
