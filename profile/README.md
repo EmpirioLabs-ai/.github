@@ -48,8 +48,6 @@ Empirio Labs is a specialized AI inference and integration provider. We focus on
 2. **Read the quickstart** — follow the <a href="https://docs.empiriolabs.ai/getting-started" target="_blank" rel="noopener">Getting Started</a> guide to make your first authenticated request.
 3. **Explore the reference** — use the <a href="https://docs.empiriolabs.ai/api-reference" target="_blank" rel="noopener">API Reference</a> to inspect schemas, examples, and responses.
 
-> Direct sign-ups for the Empirio Labs API are coming soon. Watch the <a href="https://empiriolabs.ai" target="_blank" rel="noopener">website</a> and <a href="https://empiriolabs-ai.webflow.io/changelog" target="_blank" rel="noopener">changelog</a> for the launch.
-
 ## Resources
 
 | | |
@@ -58,8 +56,8 @@ Empirio Labs is a specialized AI inference and integration provider. We focus on
 | **Documentation** | <a href="https://docs.empiriolabs.ai/welcome" target="_blank" rel="noopener">docs.empiriolabs.ai</a> |
 | **API Reference** | <a href="https://docs.empiriolabs.ai/api-reference" target="_blank" rel="noopener">docs.empiriolabs.ai/api-reference</a> |
 | **System Status** | <a href="https://status.empiriolabs.ai/" target="_blank" rel="noopener">status.empiriolabs.ai</a> |
-| **Blog** | <a href="https://empiriolabs-ai.webflow.io/blog" target="_blank" rel="noopener">empiriolabs.ai/blog</a> |
-| **Changelog** | <a href="https://empiriolabs-ai.webflow.io/changelog" target="_blank" rel="noopener">empiriolabs.ai/changelog</a> |
+| **Blog** | <a href="https://empiriolabs.ai/blog" target="_blank" rel="noopener">empiriolabs.ai/blog</a> |
+| **Changelog** | <a href="https://docs.empiriolabs.ai/documentation/changelog" target="_blank" rel="noopener">docs.empiriolabs.ai/documentation/changelog</a> |
 | **Support** | <a href="mailto:support@empiriolabs.ai">support@empiriolabs.ai</a> |
 
 ## Connect
@@ -68,7 +66,7 @@ Empirio Labs is a specialized AI inference and integration provider. We focus on
 - <a href="https://www.linkedin.com/company/empirio-labs-ai" target="_blank" rel="noopener">LinkedIn</a>
 - <a href="https://x.com/empiriolabsai" target="_blank" rel="noopener">X</a>
 - <a href="https://poe.com/profile/empiriolabsai" target="_blank" rel="noopener">Poe</a>
-- <a href="https://empiriolabs-ai.webflow.io/contact-us" target="_blank" rel="noopener">Contact us</a>
+- <a href="https://empiriolabs.ai/contact-us" target="_blank" rel="noopener">Contact us</a>
 
 ---
 
