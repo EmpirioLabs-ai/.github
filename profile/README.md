@@ -72,6 +72,6 @@ Empirio Labs is a specialized AI inference and integration provider. We focus on
 
 <div align="center">
 
-Seattle, WA &nbsp;·&nbsp; © 2026 EmpirioLabs.ai — All rights reserved.
+Seattle, WA &nbsp;·&nbsp; © 2026 EmpirioLabs.ai LLC — All rights reserved.
 
 </div>
