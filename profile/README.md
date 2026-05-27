@@ -36,7 +36,7 @@ Empirio Labs is a specialized AI inference and integration provider. We focus on
 
 ## Why teams choose Empirio Labs
 
-- **Competitive pricing.** Models on our infrastructure typically run 15–20% below other inference providers, with select proprietary endpoints up to 20% under standard rates. Fixed per-message pricing is available on select models.
+- **Competitive pricing.** Models on our infrastructure can run up to 90% cheaper than other inference providers, with select proprietary endpoints up to 77% under standard rates. Fixed per-message pricing is available on select models.
 - **Pay-as-you-go, not locked plans.** Usage is metered through our endpoints, even for upstream providers that otherwise require monthly subscriptions.
 - **Higher rate limits than going direct.** Build without the restrictive limits imposed by upstream providers.
 - **Day-0 model support.** New models and capabilities roll out quickly on our stack with routing, pricing, and usage limits wired up from day one.
