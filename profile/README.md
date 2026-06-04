@@ -28,11 +28,11 @@ Hosted open models, optimized proprietary endpoints, and turnkey deployment to r
 
 ## What Empirio Labs does
 
-Empirio Labs is a specialized AI inference and integration provider. We focus on a small, high-impact set of models and make them genuinely usable in production — not an "everything" aggregator and not a raw GPU host.
+Empirio Labs is a specialized AI inference and integration provider.
 
-- **Open-source model hosting** — Select open-source models deployed on our own GPU infrastructure with extended context, higher resolution support, and tuned performance.
-- **Optimized proprietary endpoints** — Commercial APIs and partner endpoints integrated behind our own formatting and behavior layer, exposed as ready-to-use chat and API endpoints.
-- **Deployment and consulting for custom models** — Packaging, deployment, and operations for companies and model builders shipping their models to real users, including distribution.
+- **Open-source model hosting:** Select open-source models deployed on our own GPU infrastructure with extended context, higher resolution support, and tuned performance.
+- **Optimized proprietary endpoints:** Commercial APIs and partner endpoints integrated behind our own formatting and behavior layer, exposed as ready-to-use chat and API endpoints.
+- **Deployment and consulting for custom models:** Packaging, deployment, and operations for companies and model builders shipping their models to real users, including distribution.
 
 ## Why teams choose Empirio Labs
 
