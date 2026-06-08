@@ -44,9 +44,9 @@ Empirio Labs is a specialized AI inference and integration provider.
 
 ### Get started
 
-1. **Get an API key** — create a project-scoped key in your dashboard.
-2. **Read the quickstart** — follow the <a href="https://docs.empiriolabs.ai/getting-started" target="_blank" rel="noopener">Getting Started</a> guide to make your first authenticated request.
-3. **Explore the reference** — use the <a href="https://docs.empiriolabs.ai/api-reference" target="_blank" rel="noopener">API Reference</a> to inspect schemas, examples, and responses.
+1. **Get an API key:** create a project-scoped key in your dashboard.
+2. **Read the quickstart:** follow the <a href="https://docs.empiriolabs.ai/getting-started" target="_blank" rel="noopener">Getting Started</a> guide to make your first authenticated request.
+3. **Explore the reference:** use the <a href="https://docs.empiriolabs.ai/api-reference" target="_blank" rel="noopener">API Reference</a> to inspect schemas, examples, and responses.
 
 ## Resources
 
