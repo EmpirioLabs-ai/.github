@@ -6,7 +6,7 @@
 
 ### Specialized AI model hosting for open, proprietary, and custom stacks
 
-Hosted open models, optimized proprietary endpoints, and turnkey deployment to real users — all behind a simple interface.
+Hosted open models, optimized proprietary endpoints, and turnkey deployment to real users: all behind a simple interface.
 
 <p>
   <a href="https://empiriolabs.ai" target="_blank" rel="noopener"><img alt="Website" src="https://img.shields.io/badge/Website-empiriolabs.ai-1f6feb?style=for-the-badge&logo=googlechrome&logoColor=white"></a>
